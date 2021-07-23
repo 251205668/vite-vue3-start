@@ -36,5 +36,8 @@
     "vite": "^2.4.2",
     "vue-tsc": "^0.0.24",
     "husky": "^7.0.0"
+  },
+  "lint-staged": {
+    "*.{vue,js,ts,tsx,jsx}": "eslint --fix"
   }
 }
