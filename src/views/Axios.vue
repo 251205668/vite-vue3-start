@@ -12,12 +12,7 @@
     Recommended IDE setup:
     <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
     +
-    <a
-      href="https://marketplace.visualstudio.com/items?itemName=octref.vetur"
-      target="_blank"
-    >
-      Vetur
-    </a>
+    <a href="https://marketplace.visualstudio.com/items?itemName=octref.vetur" target="_blank"> Vetur </a>
     or
     <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
     (if using
@@ -33,9 +28,9 @@
 </template>
 
 <script lang="ts">
-import { ref, defineComponent } from "vue";
+import { ref, defineComponent } from 'vue';
 export default defineComponent({
-  name: "Vuex",
+  name: 'Vuex',
   setup: () => {
     const count = ref(0);
     return { count };

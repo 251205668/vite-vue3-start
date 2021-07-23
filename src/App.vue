@@ -1,8 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/pinia">Pinia</router-link> |
+      <router-link to="/">Home</router-link> | <router-link to="/pinia">Pinia</router-link> |
       <router-link to="/vue-router">VueRouter</router-link> |
       <router-link to="/axios">Axios</router-link>
     </div>
